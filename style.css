@@ -1,5 +1,5 @@
 body{
-    font-family: 'Public Sans', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -20,8 +20,8 @@ header{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-  background-position: center top;
-  height: 753px;
+    background-position: center top;
+    height: 753px;
 }
 .hero_text{
     width: 41%;
@@ -33,6 +33,15 @@ header{
 .row{
     width: 100%;
 }
+
+.col_5{
+    width: 12%;
+    height: 10%;   
+}
+.col_5 img{
+    width: 100%;
+}
+
 .col_6{
     width: 15%;
     height: 10%;
@@ -41,9 +50,16 @@ header{
     width: 100%;
     border-radius: 27px;
 }
+
 #double_border{
     border-style: solid;
    padding: 7px;
    border-color: darkblue;
-
 }
+#bottom_border
+
+
+.col_45{
+    width: 40%;
+}
+
