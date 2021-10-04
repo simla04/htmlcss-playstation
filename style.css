@@ -16,6 +16,19 @@ header{
     height: 50px;
 }
 .icon_site img{
+        width: 182px;
+        height: auto;
+        margin-right: 0px;
+        margin-left: auto;
+    }
+
+.img_hero_image{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
+.img_hero_image img{
+    width: 100%;
+    height: auto;
+}
+
+.img_returnal
