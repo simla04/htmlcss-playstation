@@ -1,9 +1,3 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 body{
     font-family: 'Public Sans', sans-serif;
 }
@@ -22,13 +16,34 @@ header{
         margin-left: auto;
     }
 
-.img_hero_image{
-    width: 100%;
-    height: auto;
+.hero_image{
+    background-image: url(./img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: center top;
+  height: 753px;
 }
-.img_hero_image img{
-    width: 100%;
-    height: auto;
+.hero_text{
+    width: 41%;
+    padding-top: 10em;
+    padding-left: 2rem;
+    color: white;
+    box-sizing: content-box;
 }
+.row{
+    width: 100%;
+}
+.col_6{
+    width: 15%;
+    height: 10%;
+}
+.col_6 img{
+    width: 100%;
+    border-radius: 27px;
+}
+#double_border{
+    border-style: solid;
+   padding: 7px;
+   border-color: darkblue;
 
-.img_returnal
+}
