@@ -15,17 +15,20 @@ header{
         margin-right: 0px;
         margin-left: auto;
     }
-
 .hero_image{
     background-image: url(./img/jumbo-bg.png);
+}
+
+.hero_image, .it_takes_two{
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
     height: 753px;
 }
-.hero_text{
-    width: 41%;
-    padding-top: 10em;
+.hero_text, .takes_two_text{
+    width: 31%;
+    padding-top: 18em;
     padding-left: 2rem;
     color: white;
     box-sizing: content-box;
@@ -35,11 +38,11 @@ header{
 }
 
 .col_5{
-    width: 12%;
+    width: 13%;
     height: 10%;   
 }
 .col_5 img{
-    width: 100%;
+    width: 90%;
 }
 
 .col_6{
@@ -53,13 +56,21 @@ header{
 
 #double_border{
     border-style: solid;
-   padding: 7px;
    border-color: darkblue;
 }
 #bottom_border
 
 
 .col_45{
-    width: 40%;
+    width: 50%;
 }
 
+.col_45>img{
+    width: 50%;
+}
+
+.it_takes_two{
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    color: white;
+
+}
